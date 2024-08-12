@@ -51,6 +51,7 @@ jobs:
       id: step_two
       run: |
         echo "$action_state"
+        echo "{{ $action_state }}"
 
   job2:
     runs-on: ubuntu-latest
