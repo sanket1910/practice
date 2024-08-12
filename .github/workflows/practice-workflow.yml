@@ -51,7 +51,6 @@ jobs:
       id: step_two
       run: |
         echo "${{ steps.step_one.outputs.action_state }}"
-        echo "${{ action_state }}"
         echo "$action_state"
         echo "$steps.step_one.outputs.action_state"
 
