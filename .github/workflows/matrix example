@@ -1,9 +1,8 @@
 name: matrix example
+
 on:
-  push:
-    branches:
-    - main
   workflow_dispatch:
+
 jobs:
   matrix-job:
     runs-on: ubuntu-latest
